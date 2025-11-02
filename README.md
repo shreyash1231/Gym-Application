@@ -1,8 +1,8 @@
 # 🏋️‍♂️ GymMate – Full Stack Gym Management Application
 
 ## 📘 Overview
-**GymMate** is a full-stack gym management system developed to simplify daily operations for gym administrators and customers.  
-It allows multiple users to securely log in, manage memberships, track payments, and monitor member data — all in one place.
+**GymMate** is a full-stack gym management system developed to simplify daily operations for gym administrators.  
+It allows multiple users to securely log in, manage memberships, get consumer data with filters, and monitor member data — all in one place.
 
 This application is built using **Spring Boot** (backend) and **ReactJS** (frontend), with **MySQL** as the database.
 
