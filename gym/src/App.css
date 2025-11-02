@@ -1,0 +1,277 @@
+
+#signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  margin-top: 180px;
+}
+.navigate-signup{
+  text-align: center;
+  margin-top:10px;
+}
+
+#signup-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+#signup-form input {
+  width: 90%;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  font-size: 1rem;
+}
+
+#signup-form input:focus {
+  border-color: #26a69a;
+  outline: none;
+}
+
+#signup-form button {
+  width: 95%;
+  margin-left: 5px;
+  margin-top: 1.2rem;
+  padding: 1rem;
+  background-color: #0a0706;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#signup-form button:hover {
+  background-color: #ff3d00;
+  transform: translateY(-3px);
+}
+nav {
+    cursor: pointer;
+}
+
+#login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  margin-top: 270px;
+}
+
+#login-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+#login-form input {
+  width: 90%;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  font-size: 1rem;
+}
+
+#login-form input:focus {
+  border-color: #26a69a;
+  outline: none;
+}
+
+#login-form button {
+  width: 95%;
+  margin-left: 5px;
+  margin-top: 1.2rem;
+  padding: 1rem;
+  background-color: #0a0706;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#login-form button:hover {
+  background-color: #ff3d00;
+  transform: translateY(-3px);
+}
+nav {
+    cursor: pointer;
+}
+.Dashboard {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;     /* center vertically */
+  height: 93vh;           /* full viewport height */
+  padding: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1500px; 
+}
+
+.Dashboard-btn {
+  flex: 1 1 200px;
+  max-width: 350px;
+  min-width: 200px;
+  height: 250px;
+  background-color: #0a0706;
+  color: white;
+  border: 3px solid red;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.Dashboard-btn:hover {
+  background-color: #7abeec;
+  color: black;
+  transform: translateY(-3px);
+  border: 3px solid black;
+}
+
+#Adduser-form {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 50px auto;
+  margin-top: 200px;
+}
+
+
+#Adduser-form h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+#Adduser-form input {
+  width: 90%;
+  padding: 1rem;
+  margin: 0.8rem 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  font-size: 1rem;
+}
+
+#Adduser-form input:focus {
+  border-color: #26a69a;
+  outline: none;
+}
+
+#Adduser-form button {
+  width: 95%;
+  margin-left: 5px;
+  margin-top: 1.2rem;
+  padding: 1rem;
+  background-color: #0a0706;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+#Adduser-form button:hover {
+  background-color: #ff3d00;
+  transform: translateY(-3px);
+}
+.flex-container-adduser{
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+#allusersdata {
+  max-width: 1600px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.consumer-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.consumer-left,
+.consumer-right {
+  flex: 1;
+  text-align: left; /* ✅ all text in both columns is left-aligned */
+  font-size: 25px;
+}
+
+.consumer-left p,
+.consumer-right p,
+.consumer-left h3 {
+  margin: 5px 0;
+}
+
+.consumer-fullname {
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-container {
+  display: flex;
+  flex-direction: column; /* stack cards vertically */
+  gap: 20px; /* space between each user card */
+}
+
+.consumer-card {
+  background: #E0E0E0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.consumer-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.consumer-left,
+.consumer-right {
+  flex: 1;
+  text-align: left; /* make sure both sides align left */
+}
+.consumer-fullname{
+  font-size: 30px;
+}
+.backbtn{
+  padding: 20px;
+}
